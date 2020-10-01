@@ -10,10 +10,8 @@ class WebsiteController extends AbstractController
     /**
      * @Route("/", name="website")
      */
-    public function index(){
-        if    (true){
-            echo 'test'
-        }
+    public function index()
+    {
         return $this->render('website/index.html.twig', [
             'controller_name' => 'WebsiteController',
         ]);
